@@ -1,0 +1,8 @@
+{
+  "name": "node-crud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jtandrelevicius/node-crud.git",
+  "author": "Jefferson Tiago <jtandrelevicius@gmail.com>",
+  "license": "MIT"
+}
