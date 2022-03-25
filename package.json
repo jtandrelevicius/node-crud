@@ -5,6 +5,9 @@
   "repository": "https://github.com/jtandrelevicius/node-crud.git",
   "author": "Jefferson Tiago <jtandrelevicius@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts"
+  },
   "dependencies": {
     "express": "^4.17.3",
     "mysql": "^2.18.1",
