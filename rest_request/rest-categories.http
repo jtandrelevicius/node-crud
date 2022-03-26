@@ -8,12 +8,12 @@ content-type: application/json
 
 ###
 
-PUT http://localhost:3000/categories
+PUT http://localhost:3000/categories/0ac12349-8166-41b5-923b-4e54deb48d6c
 content-type: application/json
 
 {
-    "name": "Acao",
-    "description": "Filmes de acao"
+    "name": "Drama",
+    "description": "Filmes Dramaticos"
 }
 
 ###
