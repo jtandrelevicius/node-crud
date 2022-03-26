@@ -1,0 +1,31 @@
+POST http://localhost:3000/videos
+content-type: application/json
+
+{
+    "name": "A Espera de um milagre",
+    "description": "Conta a historio de um milagre",
+    "duration": 120,
+    "category_id": "0ac12349-8166-41b5-923b-4e54deb48d6c"
+}
+
+###
+
+PUT http://localhost:3000/videos/0ac12349-8166-41b5-923b-4e54deb48d6c
+content-type: application/json
+
+{
+    "name": "Drama",
+    "description": "Filmes de acao",
+    "duration": 20,
+    "category_id": ""
+}
+
+###
+DELETE http://localhost:3000/videos/396852ce-8a81-44e5-ac8b-fa21c7b99347
+
+###
+GET http://localhost:3000/videos
+
+
+###
+GET http://localhost:3000/videos
