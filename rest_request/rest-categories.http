@@ -1,0 +1,28 @@
+POST http://localhost:3000/categories
+content-type: application/json
+
+{
+    "name": "Acao",
+    "description": "Filmes de acao"
+}
+
+###
+
+PUT http://localhost:3000/categories
+content-type: application/json
+
+{
+    "name": "Caneta azul",
+    "price": 15.00
+}
+
+
+###
+DELETE http://localhost:3000/categories
+
+###
+GET http://localhost:3000/categories
+
+
+###
+GET http://localhost:3000/categories
